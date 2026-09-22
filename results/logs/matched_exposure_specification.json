@@ -1,0 +1,59 @@
+{
+  "specified_utc": "2026-09-22T00:02:26.868890+00:00",
+  "specification_sha256": "4f3994788ad088169bae1f11190be88f5a9301b172da3a7e1f9abb77a9f9ea1b",
+  "specification": {
+    "version": 1,
+    "seasons": [
+      2025,
+      2026
+    ],
+    "exact_strata": [
+      "season",
+      "batter",
+      "game_pk",
+      "pitcher",
+      "pitch_type",
+      "balls",
+      "strikes"
+    ],
+    "chronological_order": [
+      "game_pk",
+      "at_bat_number",
+      "pitch_number"
+    ],
+    "speed_max_difference_mph": 2.0,
+    "pfx_x_max_difference_ft": 0.15,
+    "pfx_z_max_difference_ft": 0.15,
+    "front_plane_location_max_distance_ft": 0.35,
+    "release_xz_max_distance_ft": 0.25,
+    "exposure_requirement": "later exposure_pitcher strictly exceeds earlier exposure_pitcher",
+    "distance": "Euclidean covariate distance divided by fixed coordinate tolerances; no data-estimated scales",
+    "covariates": [
+      "release_speed",
+      "pfx_x",
+      "pfx_z",
+      "plate_x_front",
+      "plate_z_front",
+      "release_pos_x",
+      "release_pos_z"
+    ],
+    "coordinate_scales": [
+      2.0,
+      0.15,
+      0.15,
+      0.35,
+      0.35,
+      0.25,
+      0.25
+    ],
+    "matching": "Greedy chronological; closest eligible unmatched earlier swing; ties choose most recent; no replacement",
+    "outcome_eligibility": "None; outcome values and missingness never enter matching",
+    "endpoints": [
+      "distortion",
+      "adj_distortion"
+    ],
+    "contrast": "later minus earlier; negative means a decline; not divided by exposure increment",
+    "uncertainty": "2000 game-cluster bootstrap replicates within each season; paired swings kept together",
+    "scope": "Descriptive matched restriction among tracked swings; not causal identification"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "components": [
+    "attack_angle",
+    "attack_direction",
+    "swing_path_tilt",
+    "bat_speed",
+    "swing_length"
+  ],
+  "calibration_residual_scales": [
+    8.747348194221164,
+    13.865473736640372,
+    3.6390056869543126,
+    6.5470575563108895,
+    0.5487129768442949
+  ],
+  "minimum_swings": 100,
+  "minimum_games": 8,
+  "game_bootstrap_replicates": 500,
+  "seed": 20260921,
+  "loss": "Equal-weight mean squared component residual divided by pre-2025 calibration SD squared.",
+  "adjusted_distortion_interval": "Game-cluster intercept-only sandwich standard error with t(G-1) 90% interval.",
+  "qualifying_pitchers_by_season": {
+    "2025": 580,
+    "2026": 560
+  },
+  "limitations": [
+    "Current-only and history models were fitted before July 2024; differences reflect predictive associations and model fit, not causal pitch-sequence effects.",
+    "Conditional nuisance residual means are calibration diagnostics, not pitcher deception parameters.",
+    "Pitcher-specific batter mix, count mix, tracking selection, workload, and strategy can influence these descriptive summaries.",
+    "Intervals are pointwise, unpooled, and do not adjust for comparisons across pitchers.",
+    "Shared fitted-model uncertainty is not propagated; no pitcher ranking or persistence claim is made."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "seed": 20260921,
+  "replicates_per_scenario": 60,
+  "players_per_replicate": 30,
+  "validation_run": true,
+  "calibration_target": "known synthetic truth, not MLB temporal outcomes",
+  "missingness_assumption": "MAR given included exposure and pitch difficulty; not an MNAR sensitivity analysis",
+  "heterogeneous": {
+    "mean_coverage90": 0.8788888888888889,
+    "coverage90_mcse_across_experiments": 0.007801953280734818,
+    "mean_coverage50": 0.4911111111111111,
+    "mean_rmse": 0.05483669947202647,
+    "mean_unpooled_rmse": 0.06912004573404801,
+    "mean_bias": 0.002886051150405281,
+    "mean_mu": 0.057678557117585114,
+    "mean_tau": 0.09555982465490252,
+    "mu_excludes_zero_fraction": 0.8833333333333333,
+    "mu_excludes_zero_count": 53,
+    "mean_first_stage_coverage90": 0.8744444444444445
+  },
+  "zero_learning": {
+    "mean_coverage90": 0.9883333333333334,
+    "coverage90_mcse_across_experiments": 0.0038673062656929447,
+    "mean_coverage50": 0.7616666666666667,
+    "mean_rmse": 0.01450045898244297,
+    "mean_unpooled_rmse": 0.06785809143882696,
+    "mean_bias": 0.00019689761437857893,
+    "mean_mu": 0.00018542198836276418,
+    "mean_tau": 0.02523679942516625,
+    "mu_excludes_zero_fraction": 0.06666666666666667,
+    "mu_excludes_zero_count": 4,
+    "mean_first_stage_coverage90": 0.8827777777777778
+  }
+}

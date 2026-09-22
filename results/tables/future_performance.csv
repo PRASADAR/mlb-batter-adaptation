@@ -1,0 +1,5 @@
+target,model,n_players,mse,scope
+whiff,prior_performance,404,0.0012008059345557283,Exploratory player-held-out regression predicting 2026 from 2025; no measurement-error propagation; xwOBA among batted balls only.
+whiff,plus_adaptation,404,0.0012030715994485685,Exploratory player-held-out regression predicting 2026 from 2025; no measurement-error propagation; xwOBA among batted balls only.
+xwoba,prior_performance,404,0.0016874149283833727,Exploratory player-held-out regression predicting 2026 from 2025; no measurement-error propagation; xwOBA among batted balls only.
+xwoba,plus_adaptation,404,0.0016917118577641952,Exploratory player-held-out regression predicting 2026 from 2025; no measurement-error propagation; xwOBA among batted balls only.

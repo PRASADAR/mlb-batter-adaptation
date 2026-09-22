@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.mplconfig/
+.jupyter/
+catboost_info/
+tmp/
+data/raw/downloads/
+results/models/*.cbm
+*.log
+data/raw/statcast.parquet

@@ -1,0 +1,8 @@
+{
+  "pages": 1,
+  "word_count_including_title_headings_author": 342,
+  "all_sections_present": true,
+  "exact_text_match": true,
+  "page_size": "US Letter",
+  "render": "tmp/pdfs/abstract.png"
+}

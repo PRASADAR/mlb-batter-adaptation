@@ -1,0 +1,76 @@
+[
+  {
+    "path": "data/processed/analytic_2025_03.parquet",
+    "bytes": 5226203,
+    "sha256": "3107eac86b33f25dacddce35e937d4423750a8b206146cf42f27f1fd9edd483b"
+  },
+  {
+    "path": "data/processed/analytic_2025_04.parquet",
+    "bytes": 30342227,
+    "sha256": "14b6fd3cc2eab69b52baa3d2500ef9652a7a99c43263f1d6eda8846e4a906977"
+  },
+  {
+    "path": "data/processed/analytic_2025_05.parquet",
+    "bytes": 32189478,
+    "sha256": "757308f4d6a62be8916c24286f600a89b8c8edff3a338600f24eb76930c6ae7d"
+  },
+  {
+    "path": "data/processed/analytic_2025_06.parquet",
+    "bytes": 31429067,
+    "sha256": "c599d5efddd443874baa3e986abf9a40e8b67d683e56ffec0743ba7ebb79368d"
+  },
+  {
+    "path": "data/processed/analytic_2025_07.parquet",
+    "bytes": 29216892,
+    "sha256": "f6780b3bed9c3aa9d0ac1abe4e95604467d66815fa19eff7cdaac7ca0bc8913d"
+  },
+  {
+    "path": "data/processed/analytic_2025_08.parquet",
+    "bytes": 33332223,
+    "sha256": "8f6a90031c7053b0d8a763088d1bef04076eb734a700bba28b1fa12ad6a19eb8"
+  },
+  {
+    "path": "data/processed/analytic_2025_09.parquet",
+    "bytes": 29428475,
+    "sha256": "ee2f72e27205e06f615458c014838367c27a05a6429a4922820541fac83cfa77"
+  },
+  {
+    "path": "data/processed/analytic_2026_03.parquet",
+    "bytes": 5906264,
+    "sha256": "9342b820b47726c2876f0b339a82e4143dd53c3c75b567a29766652a67050baa"
+  },
+  {
+    "path": "data/processed/analytic_2026_04.parquet",
+    "bytes": 30617542,
+    "sha256": "3d7967919cf60a22453f0e23adf1bf69e94c715db30faa3ec7065b88a0091946"
+  },
+  {
+    "path": "data/processed/analytic_2026_05.parquet",
+    "bytes": 32687128,
+    "sha256": "d0644f0a4f1c61ac59a1331e1a37cfd3972f5645869e1a4aa54b93182b3d7452"
+  },
+  {
+    "path": "data/processed/analytic_2026_06.parquet",
+    "bytes": 30831838,
+    "sha256": "f278efd0aff6a7a2945c43184beca917ff8916cc7d35458f3ee4130d6428cf6f"
+  },
+  {
+    "path": "data/processed/analytic_2026_07.parquet",
+    "bytes": 29956093,
+    "sha256": "d8a5de5ae4363fd687c7908eaf1da8a2fc4e39bb32422c55e82679fa69ebe375"
+  },
+  {
+    "path": "data/processed/analytic_2026_08.parquet",
+    "bytes": 32945282,
+    "sha256": "67365249bed373926cd28e660a2819352f6c206f15f56bfab63799899a326d36"
+  },
+  {
+    "path": "data/processed/analytic_2026_09.parquet",
+    "bytes": 21612795,
+    "sha256": "e7624fb45f3a323ae2ee80f8128c35f6fdc89632f0711c88ac9be7cfbe53aaa2"
+  },
+  {
+    "path": "results/models/baseline.json",
+    "sha256": "d737259d45b58158efae6962071738e5d77769f3a5789fbe1897ee486f373d9f"
+  }
+]

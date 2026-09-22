@@ -1,0 +1,14 @@
+{
+  "raw_pitches": 2433934,
+  "raw_games": 8271,
+  "administrative_events": 8197,
+  "delivered_pitch_records": 2425737,
+  "start": "2023-07-14",
+  "end": "2026-09-20",
+  "seasons": {
+    "2023": 319018,
+    "2024": 711899,
+    "2025": 712528,
+    "2026": 690489
+  }
+}

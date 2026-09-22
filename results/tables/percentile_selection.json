@@ -1,0 +1,732 @@
+{
+  "selected": {
+    "stage": "discovery",
+    "specification": "absz_swing_length__log_kernel_h1_m5",
+    "x": "log_kernel_h1_m5",
+    "y": "absz_swing_length",
+    "restriction": "all",
+    "high_information": false,
+    "negative_control": false,
+    "method": "unpooled",
+    "endpoint": "spearman",
+    "estimate": 0.18059548679836993,
+    "ci90_low": 0.09358986676562657,
+    "ci90_high": 0.26214861678097306,
+    "permutation_p_positive": 0.0006,
+    "permutation_p_two_sided": 0.0009,
+    "permutation_null_mean": 0.0,
+    "permutations": 9999,
+    "bootstrap_replicates": 500,
+    "shared_players": 368,
+    "median_n_a": 415.0,
+    "median_n_b": 384.5,
+    "min_n_a": 45,
+    "min_n_b": 40,
+    "median_games_a": 61.5,
+    "median_games_b": 58.5,
+    "median_information_a": 17.397156121097638,
+    "median_information_b": 16.921846256584256,
+    "median_se_a": 0.14821242726792128,
+    "median_se_b": 0.15432339568831271,
+    "median_shrinkage_a": 0.2409314511059244,
+    "median_shrinkage_b": 0.19959458808576572,
+    "score_se_spearman_a": -0.04906269534203457,
+    "score_se_spearman_b": -0.01741909167699662,
+    "se_stability_spearman": 0.40516959902450583,
+    "top_quartile_baseline_n": 81,
+    "status": "ok",
+    "bh_q_positive": 0.0351,
+    "bh_q_two_sided": 0.06825,
+    "by_q_positive": 0.19762259550068872,
+    "family_tests": 156
+  },
+  "settings": {
+    "label": "post-holdout exploratory",
+    "seed": 20260922,
+    "specifications": [
+      {
+        "specification": "distortion__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_exposure_pitcher",
+        "x": "log_exposure_pitcher",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_exposure_pa",
+        "x": "log_exposure_pa",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_exposure_type",
+        "x": "log_exposure_type",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_exposure",
+        "x": "log_kernel_exposure",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_exposure_sequence",
+        "x": "log_exposure_sequence",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_h0.5_m5",
+        "x": "log_kernel_h0.5_m5",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_h0.5_m20",
+        "x": "log_kernel_h0.5_m20",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_h1_m5",
+        "x": "log_kernel_h1_m5",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_h2_m5",
+        "x": "log_kernel_h2_m5",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_kernel_h2_m20",
+        "x": "log_kernel_h2_m20",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__linear_exposure_pitcher",
+        "x": "linear_exposure_pitcher",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__saturating_exposure_pitcher",
+        "x": "saturating_exposure_pitcher",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_pitcher__speed50",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "speed50",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_pitcher__innings6",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "innings6",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_pitcher__innings3",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "innings3",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_exposure_pitcher__recent_similar",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "recent_similar",
+        "high_information": false,
+        "negative_control": false
+      },
+      {
+        "specification": "distortion__log_future_exposure",
+        "x": "log_future_exposure",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": true
+      },
+      {
+        "specification": "distortion__log_irrelevant_exposure",
+        "x": "log_irrelevant_exposure",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": false,
+        "negative_control": true
+      },
+      {
+        "specification": "distortion__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "distortion",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_angle__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "absz_attack_angle",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_attack_direction__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "absz_attack_direction",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_path_tilt__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "absz_swing_path_tilt",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_bat_speed__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "absz_bat_speed",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      },
+      {
+        "specification": "absz_swing_length__log_exposure_pitcher__n500",
+        "x": "log_exposure_pitcher",
+        "y": "absz_swing_length",
+        "restriction": "all",
+        "high_information": true,
+        "negative_control": false
+      }
+    ],
+    "minimum_n": 40,
+    "minimum_games": 8,
+    "high_information_n": 500,
+    "bootstraps": 1000,
+    "permutations": 19999,
+    "discovery_permutations": 9999,
+    "discovery": "2025 March\u2013June versus 2026 March\u2013June",
+    "confirmation": "2025 July\u2013September versus 2026 July\u2013September",
+    "selection_rule": "Smallest discovery positive-direction BH q, then p, then largest positive Spearman; exclude negative controls and full-year-only n500 variants.",
+    "disclosure": "Earlier aggregate 2026 results are already inspected; new partition comparisons are internal diagnostics, not untouched data."
+  },
+  "selection_precedes_confirmation": true
+}

@@ -1,0 +1,18 @@
+[project]
+name = "deja-swing"
+version = "0.1.0"
+description = "A reproducible investigation of hitter adaptation with Statcast swing geometry"
+requires-python = ">=3.12,<3.14"
+readme = "README.md"
+license = "MIT"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,11 @@
+bin,n_pairs,mean_probability_2025,mean_probability_2026,mean_probability_same_order,bin_low,bin_high,shared_players,total_pairs_sampled,interpretation
+0,3,0.081,0.539,0.4675686666666667,0.0,0.1,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+1,68,0.16039705882352942,0.5023529411764707,0.4956837058823529,0.1,0.2,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+2,246,0.26019918699186995,0.4925040650406504,0.5045969430894309,0.2,0.3,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+3,773,0.35509702457956016,0.5141384217335058,0.4966835472186287,0.3,0.4,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+4,1422,0.4531912798874824,0.509598452883263,0.4987562405063291,0.4,0.5,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+5,1453,0.5459669649002065,0.4980282174810736,0.49932033998623543,0.5,0.6,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+6,670,0.642489552238806,0.492589552238806,0.4979382447761194,0.6,0.7,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+7,277,0.7370794223826714,0.4936462093862816,0.4971000577617329,0.7,0.8,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+8,82,0.8408292682926829,0.5034634146341463,0.5030020243902439,0.8,0.9,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration
+9,6,0.9108333333333333,0.44849999999999995,0.45768733333333333,0.9,1.0,465,5000,Conditional annual associations; same-order probability assumes independent annual fits; later probability is not observed truth or calibration

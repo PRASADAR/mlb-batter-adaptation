@@ -1,0 +1,11 @@
+{
+  "pytest_passed": 56,
+  "pytest_failed": 0,
+  "notebook_code_cells": 27,
+  "notebook_errors": 0,
+  "scientific_figure_pairs": 16,
+  "authored_notebook_and_writing_style_scan": "No em dashes, not only, or but also",
+  "pdf_exact_text_match": true,
+  "pdf_pages": 1,
+  "abstract_words_including_title_and_headings": 342
+}

@@ -1,0 +1,19 @@
+{
+  "word_count_including_title_headings_author": 342,
+  "title_and_body_word_count": 342,
+  "aggressive_alternate_title": "Deja Swing: Why Apparent Hitter Adjustment May Not Be a Skill",
+  "academic_alternate_title": "Temporal Reliability of Exposure-Associated Swing Geometry in Major League Baseball",
+  "persistent_skill_claim_supported": false,
+  "negative_control_flag": true,
+  "source_tables": [
+    "sample.json",
+    "robustness.csv",
+    "sequence_distortion.csv",
+    "whiff_validation.csv",
+    "persistence.json",
+    "holdout_prediction.json",
+    "percentile_stability.csv",
+    "percentile_selection.json",
+    "percentile_confirmation.csv"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "n": 278830,
+  "mse_improvement_pct": -0.004709446454494821,
+  "ci90": [
+    -0.008117551855029057,
+    -0.0011492214065688476
+  ],
+  "note": "Within-player centered later-season residual loss; conditional slope transport, not prospective raw-swing prediction."
+}

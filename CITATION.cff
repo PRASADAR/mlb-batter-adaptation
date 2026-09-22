@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the primary data and methodological sources when reusing this work."
+title: "Deja Swing: The Search for Batter Adaptation"
+version: 0.1.0
+date-released: 2026-09-21
+type: software
+license: MIT
+authors:
+  - name: "Deja Swing contributors"
+keywords:
+  - baseball
+  - Statcast
+  - adaptation
+  - Bayesian inference
+  - reproducibility

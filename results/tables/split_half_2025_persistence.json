@@ -1,0 +1,240 @@
+{
+  "n_players": 406,
+  "raw_correlation": -0.09498987081079356,
+  "latent_correlation": 0.011780720150817256,
+  "latent_sd_a": 0.048068324795496144,
+  "latent_sd_b": 0.0410578483867778,
+  "bootstrap_ci90": [
+    -0.9989995977858408,
+    0.9989995977858408
+  ],
+  "bootstrap_successes": 100,
+  "bootstrap_requested": 100,
+  "boundary_fit": false,
+  "weak_identification": true,
+  "weak_identification_flags": {
+    "point_signal_sd_below_10pct_median_se": false,
+    "bootstrap_low_signal_fraction_above_20pct": false,
+    "bootstrap_rho90_width_at_least_1_5": true,
+    "profile_support_width_at_least_1_5": true,
+    "all_profile_rhos_supported": false,
+    "best_optimizer_not_converged": false
+  },
+  "median_first_stage_se": {
+    "early": 0.12330840677094684,
+    "late": 0.13516577211962066
+  },
+  "latent_sd_to_median_se_ratio": {
+    "early": 0.3898219598667437,
+    "late": 0.30375921169186176
+  },
+  "weak_identification_ratio_threshold": 0.1,
+  "optimization_diagnostics": {
+    "method": "median-SE scaling; analytically profiled means; analytic-gradient multistart L-BFGS-B",
+    "finite_starts": 18,
+    "converged_starts": 18,
+    "best_converged": true,
+    "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "best_iterations": 10,
+    "best_gradient_max_abs": 4.43321744748387e-08,
+    "negative_log_likelihood": -1155.5835399313428,
+    "log_likelihood_constant_omitted": "n * log(2*pi)",
+    "multistart_nll_range": 3.3249448438579634,
+    "starts_within_1e_minus_6_of_best": 16,
+    "median_se_scaling": [
+      0.12330840677094684,
+      0.13516577211962066
+    ],
+    "relative_sd_starts": [
+      [
+        0.05,
+        0.05
+      ],
+      [
+        0.1,
+        0.6113216397561781
+      ],
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        1.0
+      ],
+      [
+        1.0,
+        0.25
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "rho_starts": [
+      -0.6,
+      0.0,
+      0.6
+    ],
+    "optimizer_options": {
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxiter": 1000,
+      "maxls": 50
+    },
+    "physical_sd_bounds": [
+      4.5399929762484854e-05,
+      7.38905609893065
+    ],
+    "rho_bounds": [
+      -0.9989995977858408,
+      0.9989995977858408
+    ]
+  },
+  "rho_likelihood_profile": {
+    "rho_grid": [
+      -0.9989995977858408,
+      -0.9490496178965487,
+      -0.8990996380072567,
+      -0.8491496581179647,
+      -0.7991996782286727,
+      -0.7492496983393806,
+      -0.6992997184500885,
+      -0.6493497385607965,
+      -0.5993997586715045,
+      -0.5494497787822124,
+      -0.4994997988929204,
+      -0.44954981900362834,
+      -0.3995998391143363,
+      -0.3496498592250442,
+      -0.29969987933575226,
+      -0.2497498994464602,
+      -0.19979991955716814,
+      -0.14984993966787608,
+      -0.09989995977858401,
+      -0.04994997988929206,
+      0.0,
+      0.011780720150817256,
+      0.04994997988929217,
+      0.09989995977858412,
+      0.14984993966787608,
+      0.19979991955716825,
+      0.2497498994464602,
+      0.2996998793357524,
+      0.3496498592250443,
+      0.3995998391143363,
+      0.44954981900362845,
+      0.4994997988929204,
+      0.5494497787822126,
+      0.5993997586715045,
+      0.6493497385607965,
+      0.6992997184500886,
+      0.7492496983393806,
+      0.7991996782286728,
+      0.8491496581179647,
+      0.8990996380072567,
+      0.9490496178965488,
+      0.9989995977858408
+    ],
+    "negative_log_likelihood_difference": [
+      1.8463024940143669,
+      1.8462898507626164,
+      1.7673659113040685,
+      1.6528153414037092,
+      1.5241808799345904,
+      1.3876999794786116,
+      1.2474113912853682,
+      1.1063555377270973,
+      0.9670386247024112,
+      0.8316282140771136,
+      0.7020362507137179,
+      0.5799529685265838,
+      0.46686039403590485,
+      0.36403894826946726,
+      0.2725732139969068,
+      0.1933591084773525,
+      0.12711276050777087,
+      0.07438050417869135,
+      0.035549109324279016,
+      0.010855393231622656,
+      0.0003945325599943317,
+      0.0,
+      0.004126623068941626,
+      0.021881268970844303,
+      0.053360203289628316,
+      0.09813814012335342,
+      0.15566223825692305,
+      0.2252507087625304,
+      0.30609121244344806,
+      0.39723973534580637,
+      0.497620549272483,
+      0.6060275788888703,
+      0.7211268921298597,
+      0.8414589393892129,
+      0.9654373275762396,
+      1.0913378560972546,
+      1.2172663013157035,
+      1.3410839215117676,
+      1.4602513321669335,
+      1.5715156466042117,
+      1.6703077505333113,
+      1.749761622719518
+    ],
+    "nll_range": 1.8463024940143669,
+    "likelihood_support_nll_cutoff": 1.352771727,
+    "likelihood_support_range": [
+      -0.7368134372625242,
+      0.8040987160266536
+    ],
+    "likelihood_support_width": 1.5409121532891779,
+    "support_endpoint_method": "linear interpolation between fixed-rho grid points; outermost support if disconnected",
+    "all_grid_values_supported": false,
+    "converged_grid_fits": 42,
+    "scope": "Fixed-rho profile diagnostic; usual chi-square confidence calibration is not assumed near zero latent variance."
+  },
+  "bootstrap_diagnostics": {
+    "seed": 20260921,
+    "best_converged_count": 100,
+    "signal_sd_below_10pct_median_se_count": 7,
+    "signal_sd_below_10pct_median_se_fraction": 0.07,
+    "sd_near_optimizer_lower_bound_count": 0,
+    "abs_rho_above_0_98_count": 16,
+    "multistart_nll_range_max": 6.909747604708741
+  },
+  "rho_interpretation": "Weakly identified: numerical rho and bootstrap quantiles must not be treated as a reliable persistence estimate.",
+  "bootstrap_interval_scope": "Descriptive player-bootstrap quantiles; not guaranteed calibrated near zero latent variance or correlation boundaries.",
+  "scope": "descriptive latent-normal correlation; independent known period SEs; weak heterogeneity may make rho unidentified",
+  "naive_spearman": -0.08151375737582635,
+  "year": 2025,
+  "split_date": "2025-07-01",
+  "minimum_swings_per_half": 40,
+  "minimum_games_per_half": 8,
+  "minimum_residual_exposure_information": 1.0,
+  "n_eligible_early": 497,
+  "n_eligible_late": 491,
+  "n_analytic_swings_early": 170259,
+  "n_analytic_swings_late": 157823,
+  "n_games_early": 1266,
+  "n_games_late": 1159,
+  "first_date_early": "2025-03-18",
+  "last_date_early": "2025-06-30",
+  "first_date_late": "2025-07-01",
+  "last_date_late": "2025-09-28",
+  "holdout_2026_used_for_split_half": false,
+  "seed": 20260921,
+  "interpretation": "Descriptive split-half reliability of conditional negative exposure slopes; not causal adaptation.",
+  "limitations": [
+    "2025 game-group cross-fitting shares estimated nuisance functions across halves; period errors are only approximately independent.",
+    "First-stage cluster SEs are treated as known; nuisance-model uncertainty and cross-hitter dependence are not propagated.",
+    "Player bootstrap resamples matched eligible hitters; survival and playing-time selection are not removed.",
+    "The latent-normal correlation can approach its numerical boundary when between-hitter heterogeneity is weak.",
+    "This conditional residual diagnostic is not a strict prospective early-to-late forecast."
+  ],
+  "implied_signal_fraction_at_median_se": {
+    "early": 0.13191517702066316,
+    "late": 0.08447516412615665
+  },
+  "supplementary_low_signal_warning": false,
+  "shared_function_weak_identification": true,
+  "weak_identification_diagnostic_scope": "Reporting-only union of shared-function numerical/profile/bootstrap diagnostics and any period latent SD <10% of its median first-stage SE, equivalent to latent variance <1% of median measurement variance. These heuristic warnings do not alter estimates, intervals, eligibility or model choices."
+}

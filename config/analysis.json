@@ -1,0 +1,33 @@
+{
+  "seed": 20260921,
+  "title": "Deja Swing: The Search for Batter Adaptation",
+  "target_start": "2023-07-14",
+  "target_end": "2026-09-21",
+  "swing_components": [
+    "attack_angle",
+    "attack_direction",
+    "swing_path_tilt",
+    "bat_speed",
+    "swing_length"
+  ],
+  "catboost_iterations": 240,
+  "catboost_depth": 6,
+  "max_training_swings": 150000,
+  "posterior_draws": 5000,
+  "simulation_replicates": 60,
+  "minimum_player_observations": 40,
+  "minimum_player_games": 8,
+  "kernel_bandwidths": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "memory_pitch_half_lives": [
+    5.0,
+    20.0
+  ],
+  "interpretation": "Conditional association in unexpected swing deviation; not a causal learning rate.",
+  "nuisance_max_ctr_complexity": 2,
+  "nuisance_threads": 8,
+  "nuisance_iterations": 180
+}

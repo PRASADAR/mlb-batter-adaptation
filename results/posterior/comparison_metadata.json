@@ -1,0 +1,16 @@
+{
+  "2025": {
+    "players": 587,
+    "draws": 5000,
+    "pairwise_definition": "strict P(lambda_i > lambda_j); diagonal is zero",
+    "rank_definition": "columns correspond to rank_values;1 is largest conditional rate",
+    "scope": "Qualified hitters in this period, not a causal talent ranking"
+  },
+  "2026": {
+    "players": 591,
+    "draws": 5000,
+    "pairwise_definition": "strict P(lambda_i > lambda_j); diagonal is zero",
+    "rank_definition": "columns correspond to rank_values;1 is largest conditional rate",
+    "scope": "Qualified hitters in this period, not a causal talent ranking"
+  }
+}

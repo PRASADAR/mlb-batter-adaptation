@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-21T22:58:57.228312+00:00",
+  "snapshot_cutoff": "2026-09-21",
+  "rows": 2433934,
+  "columns": 119,
+  "first_date": "2023-07-14",
+  "last_date": "2026-09-20",
+  "games": 8271,
+  "sha256": "652bb6a2d6e9f572e787448d7cd90056e6cb78ad74c5c9297a1743afc18ff72b",
+  "successful_windows": 161,
+  "failed_windows": 0,
+  "empty_windows": 3,
+  "source_partition_rows": 2433934,
+  "duplicate_pitch_keys_removed": 0,
+  "verified_partition_sha256_count": 161,
+  "latest_requested_date_status": "2026-09-21 returned no recorded pitches at snapshot; latest actual game_date is 2026-09-20"
+}

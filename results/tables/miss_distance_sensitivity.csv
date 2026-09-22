@@ -1,0 +1,3 @@
+season,n_whiffs,n_players,mu_median,mu_low,mu_high,scope
+2025,77033,479,0.06336718702944377,0.05165996517888791,0.07574674032110158,"Conditional on tracked whiffs; contacts are missing, not zero. Log-distance normalized to 2025 SD; not unconditional mechanical learning."
+2026,73608,477,0.05169798064473282,0.04091538540688536,0.0632424118336564,"Conditional on tracked whiffs; contacts are missing, not zero. Log-distance normalized to 2025 SD; not unconditional mechanical learning."

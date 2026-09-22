@@ -1,0 +1,20 @@
+{
+  "method": "analytic mu integration; trapezoid quadrature in tau; independent conditional draws",
+  "grid_size": 2401,
+  "grid_spacing_min": 1.0416666666666668e-07,
+  "grid_spacing_max": 0.0004998958333332082,
+  "boundary_refinements": 0,
+  "tau_upper": 0.6,
+  "upper_expansions": 0,
+  "tail_mass_last_1pct": 3.5050953770774333e-278,
+  "endpoint_density_relative_to_mode": 9.128273403972698e-282,
+  "max_mean_change_at_double_resolution": 1.7849839661909783e-11,
+  "quadrature_tau_mean": 0.045710265778255536,
+  "quadrature_mu_mean": 0.029745457177001607,
+  "independent_draws": 5000,
+  "mu_mean_mcse": 6.464456765881149e-05,
+  "mu_prior_sd": 0.2,
+  "tau_halfnormal_scale": 0.15,
+  "mcmc_diagnostics": "not applicable: no Markov chains",
+  "inference_scope": "conditional on first-stage slope estimates, their SEs, and independence approximation; observational association"
+}

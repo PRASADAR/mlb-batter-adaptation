@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "source_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2023-07-14&endDate=2023-10-01&gameTypes=R",
+      "retrieved_utc": "2026-09-21T22:59:38.369526+00:00",
+      "source_json_sha256": "94cff77362279e07b4a055cbdded6a2245b6d37a4180f7d25778e81b4c95cd36"
+    },
+    {
+      "source_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2024-03-20&endDate=2024-09-30&gameTypes=R",
+      "retrieved_utc": "2026-09-21T22:59:38.945086+00:00",
+      "source_json_sha256": "9733d248b6a6d1635eb91802f504d70ebedc49b5aa87e7ae962cafb40b18879b"
+    },
+    {
+      "source_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2025-03-18&endDate=2025-09-28&gameTypes=R",
+      "retrieved_utc": "2026-09-21T22:59:39.490891+00:00",
+      "source_json_sha256": "a8e90faf13a67f04762e019c465e38c66def1d7c4fbc8621c47cb0785fac2948"
+    },
+    {
+      "source_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-03-25&endDate=2026-09-21&gameTypes=R",
+      "retrieved_utc": "2026-09-21T22:59:40.017875+00:00",
+      "source_json_sha256": "207fd9d81aa64e662e19a06706f2792d03e97b2f8a0cfc84c0b959be70f6f34f"
+    }
+  ],
+  "sha256": "8a8c0bd620f8f0ca9ce8274fd80980e3e1c884e2d621749eb8b9d288dc172f1d"
+}

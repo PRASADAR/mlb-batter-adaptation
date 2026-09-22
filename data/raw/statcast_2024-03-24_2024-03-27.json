@@ -1,0 +1,12 @@
+{
+  "start": "2024-03-24",
+  "end": "2024-03-27",
+  "source_url": "https://baseballsavant.mlb.com/statcast_search/csv?all=true&type=details&player_type=pitcher&hfGT=R%7C&game_date_gt=2024-03-24&game_date_lt=2024-03-27&min_pitches=0&min_results=0&group_by=name&sort_col=pitches&sort_order=desc",
+  "retrieved_utc": "2026-09-21T22:42:38.176841+00:00",
+  "source": "MLB Baseball Savant Statcast CSV",
+  "requested_game_type": "R",
+  "source_csv_sha256": "c1703bd38919ac5304ed7f1e0f3eb225f385b969203db316cde88adc409462e3",
+  "source_bytes": 1825,
+  "status": "empty",
+  "rows": 0
+}
