@@ -1,0 +1,19 @@
+{
+  "analysis_id": "same_type_across_pitchers_mechanics_and_lagged_contact",
+  "seed": 20260922,
+  "source_seasons": [2025, 2026],
+  "population_primary_outcome": "adj_distortion",
+  "population_exposure": "log(1 + earlier delivered pitches of the same Statcast type to this hitter in this game), regardless of pitcher",
+  "population_estimand": "Within batter-game-pitch-type association; frozen pitch-context residuals already adjust for pitcher identity and measured pitch properties; the controlled version adds exposure to other pitch types and plate-appearance progress",
+  "population_bootstrap_unit": "hitter",
+  "population_bootstrap_replicates": 1500,
+  "lagged_mechanics_clip_sd": 4,
+  "forecast_train_end_exclusive": "2026-07-01",
+  "forecast_primary_outcome": "contact_per_pitch",
+  "forecast_secondary_outcome": "contact_given_swing",
+  "forecast_primary_contrast": "same-type earlier contact and swing history across all pitchers versus the same model with mean earlier same-type context-adjusted swing deviation",
+  "other_pitcher_diagnostic": "Restrict evaluation to pitches with an earlier tracked swing of this type from another pitcher; compare other-pitcher same-type outcome history with and without other-pitcher mechanical deviation",
+  "forecast_bootstrap_replicates": 1500,
+  "forecast_logistic_c": 10,
+  "interpretation": "Observational association and a chronological pitch-type-conditioned prediction check. Neither design identifies causal learning or a stable individual talent."
+}

@@ -1,0 +1,33 @@
+{
+  "analysis_id": "same_type_adaptation_vs_future_player_qualities",
+  "seed": 20261012,
+  "primary_score": "2025 posterior mean same-type adaptation rate pooled across pitchers within games",
+  "score_direction": "Positive means context-adjusted swing deviation declines faster as same-type exposure accumulates",
+  "primary_window": "2025 full-season score and quality to available 2026 quality through September 20",
+  "minimum_pa_annual": 200,
+  "minimum_pa_half": 100,
+  "minimum_opportunities": {
+    "out_zone_pitches": 150,
+    "in_zone_pitches": 150,
+    "swings": 150,
+    "pa": 200,
+    "batted_balls": 100,
+    "woba_denominator": 180,
+    "tracked_swings": 150
+  },
+  "half_score_minimum_swings": 30,
+  "half_score_minimum_games": 6,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 5000,
+  "cv_splits": 10,
+  "cv_repeats": 20,
+  "authority_composite": [
+    "hard_hit_rate",
+    "barrel_rate",
+    "mean_exit_velocity",
+    "p90_exit_velocity",
+    "xwoba_on_contact"
+  ],
+  "multiplicity": "Benjamini-Hochberg q values and a shared-score max-absolute partial-rank permutation test across 12 individual outcomes",
+  "status": "Exploratory follow-up specified after earlier 2026 project results were inspected"
+}

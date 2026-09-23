@@ -1,0 +1,16 @@
+{
+  "status": "post hoc model search; no new untouched future-season test",
+  "candidate_family": "Two scopes by six prespecified available deviation outcomes; same-type exposure across pitchers in one game for every candidate.",
+  "development_selection_rule": "Maximum March-June versus July-September 2025 unpooled Spearman correlation, then largest cross-season shared sample.",
+  "development_selected": {
+    "scope": "first_type_from_pitcher",
+    "outcome": "absz_attack_angle"
+  },
+  "descriptive_2026_best": {
+    "scope": "first_type_from_pitcher",
+    "outcome": "absz_bat_speed"
+  },
+  "descriptive_selection_warning": "The largest 2026 gain was selected on 2026 data; its pointwise interval is not a post-selection confirmation interval.",
+  "multiplicity": "One-sided cross-season rank permutation tests, 2000 permutations per candidate; BH and BY across all 12 candidates.",
+  "validated_persistent_skill": false
+}

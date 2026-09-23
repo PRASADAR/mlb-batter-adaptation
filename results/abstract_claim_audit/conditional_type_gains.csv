@@ -1,0 +1,5 @@
+endpoint,cohort,base,candidate,pitches,hitters,games,log_loss_gain,brier_gain,game_pk_ci95_low,game_pk_ci95_high,batter_ci95_low,batter_ci95_high
+contact_per_pitch,other_pitcher_prior_tracked,other_pitcher_outcomes,other_pitcher_mechanics,56274,556,1056,1.666458943415043e-05,7.64899777902757e-06,-1.2280601112768471e-05,4.545303787779731e-05,-1.3473031197322777e-05,4.840437152567148e-05
+contact_per_pitch,first_type_from_pitcher_with_other_history,other_pitcher_outcomes,other_pitcher_mechanics,28660,556,1056,1.7138219218717475e-06,-9.808366698535076e-07,-3.6583491266108446e-05,3.918432454329429e-05,-3.895427835490639e-05,4.148709225034055e-05
+contact_given_swing,other_pitcher_prior_tracked,other_pitcher_outcomes,other_pitcher_mechanics,27359,549,1056,2.3525610570576644e-05,5.568421709281603e-06,-0.00011419217942984744,0.00016854809373720908,-0.00013729235696176254,0.0001974667167910791
+contact_given_swing,first_type_from_pitcher_with_other_history,other_pitcher_outcomes,other_pitcher_mechanics,11924,538,1054,-8.891893319665486e-05,-1.7730983864712538e-05,-0.0003182536847910189,0.00016873349757642392,-0.00031888107871652025,0.00015277517359607695

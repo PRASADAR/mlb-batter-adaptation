@@ -1,0 +1,5 @@
+specification,season,description,analytic_swings,eligible_hitters,population_median,population_ci90_low,population_ci90_high,heterogeneity_median,median_first_stage_se
+pooled_same_type,2025,All tracked swings. Prior same-type pitches from any pitcher in the same game.,328082,587,0.02530079278360145,0.019431363383340953,0.03147616258247246,0.0320230785179192,0.08604623514128336
+pooled_same_type,2026,All tracked swings. Prior same-type pitches from any pitcher in the same game.,316713,591,0.01883959165013819,0.012713410360375368,0.025155573670725958,0.03709413724613464,0.08741439983343419
+first_type_from_pitcher,2025,Only the first same-type pitch from the current pitcher. Any positive exposure came from other pitchers in the same game.,116852,520,0.02283314102616041,0.014138125297527558,0.03187647905458844,0.04642347987537698,0.11741229124689498
+first_type_from_pitcher,2026,Only the first same-type pitch from the current pitcher. Any positive exposure came from other pitchers in the same game.,117804,515,0.01149286985840053,0.003110132668332601,0.01996757077026655,0.035534015834784494,0.1184528810531419

@@ -5,7 +5,7 @@ export JUPYTER_PATH := $(CURDIR)/.venv/share/jupyter
 export JUPYTER_RUNTIME_DIR := $(CURDIR)/.jupyter/runtime
 export IPYTHONDIR := $(CURDIR)/.jupyter/ipython
 
-.PHONY: setup data audit features models validation exploratory results abstract pdf notebook test reproduce
+.PHONY: setup data audit features models validation exploratory cross-pitcher claim-audit player-qualities rankings submission-notebook submission results abstract pdf notebook test reproduce
 setup:
 	$(BOOTSTRAP_PYTHON) -m venv .venv
 	$(PYTHON) -m pip install -r requirements.lock.txt
@@ -26,6 +26,19 @@ validation:
 	$(PYTHON) scripts/18_matched_exposure.py
 exploratory:
 	$(PYTHON) scripts/19_percentile_stability.py
+cross-pitcher:
+	$(PYTHON) scripts/20_cross_pitcher_adaptation.py
+	$(PYTHON) scripts/21_cross_pitcher_model_search.py
+	$(PYTHON) scripts/22_player_curves.py
+claim-audit:
+	$(PYTHON) scripts/62_abstract_claim_audit.py
+player-qualities:
+	$(PYTHON) scripts/63_player_quality_outcomes.py
+rankings:
+	$(PYTHON) scripts/64_adaptability_rankings.py
+submission-notebook:
+	$(PYTHON) scripts/65_build_submission_notebook.py
+submission: claim-audit player-qualities rankings submission-notebook test
 results:
 	$(PYTHON) scripts/11_pairwise_comparisons.py
 	$(PYTHON) -c "from pathlib import Path; from src.visualization.figures import make_figures; make_figures(Path.cwd())"
@@ -40,4 +53,4 @@ notebook:
 	$(PYTHON) scripts/execute_notebook.py
 test:
 	$(PYTHON) -m pytest -q
-reproduce: audit features models validation exploratory results abstract pdf notebook test
+reproduce: audit features models validation cross-pitcher claim-audit player-qualities rankings submission-notebook test

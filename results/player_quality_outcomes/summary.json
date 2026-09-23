@@ -1,0 +1,20 @@
+{
+  "n_players": 261,
+  "primary_composite": {
+    "outcome": "authority_composite",
+    "label": "Batted-ball authority composite",
+    "n_players": 261,
+    "partial_rank_rho": 0.13073895375857414,
+    "ci95_low": 0.008683049823029993,
+    "ci95_high": 0.24852284464222907,
+    "permutation_p": 0.03539292141571686,
+    "standardized_ols_beta": 0.06940680211421296,
+    "standardized_huber_beta": 0.04003035348375081,
+    "quantile_beta_25": 0.05674955100337063,
+    "quantile_beta_50": 0.009104465991186438,
+    "quantile_beta_75": 0.05163255305335718,
+    "cv_mse_gain_pct": 0.534998456675399
+  },
+  "minimum_pa": 200,
+  "status": "Exploratory follow-up specified after earlier 2026 project results were inspected"
+}
